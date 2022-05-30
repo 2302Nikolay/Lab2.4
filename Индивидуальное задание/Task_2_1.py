@@ -5,7 +5,7 @@ import sys
 
 if __name__ == '__main__':
 
-    a = list(map(int, input("Введите список из целэх элементов: ").split()))
+    a = list(map(int, input("Введите список из целых элементов: ").split()))
     if not a:
         print("Заданный список пуст", file=sys.stderr)
         exit(1)
